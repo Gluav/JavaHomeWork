@@ -8,11 +8,11 @@ public class Calculator {
         int operand1;
         int operand2;
         String sign;
-        System.out.println("Введите первое целое число:");
+        System.out.println("первое число:");
         operand1 = scan.nextInt();
-        System.out.println("Введите второе целое число:");
+        System.out.println("второе число:");
         operand2 = scan.nextInt();
-        System.out.println("Введите знак арифметической операции:");
+        System.out.println("арифметическая операция:");
         sign = scan.next();
         switch (sign) {
             case "+":
